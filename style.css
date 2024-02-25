@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+   
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+
+.image-principal {
+    height: 700px;
+    width: 800px;
+    margin-top: 65px;
+    border-radius: 400px;
+    margin-left: 20px;
+    
+}
+
+.box-principal {
+
+    display: flex;
+    justify-content: start;
+    padding: 50px;
+    margin-right: 200px;
+
+}
+
+.image-login {
+    height: 80px;
+    border: none;
+    border-radius: 40px;
+
+}
+.box-formulario{
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    margin-top: -700px;
+    background: rgb(45, 228, 228);
+    width: 500px;
+    border-radius: 30px;
+    height: 600px;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 1px 5px 30px 5px rgb(11, 67, 67);
+    margin-right: 400px;
+
+}
+
+.formulario input {
+    width: 300px;
+    border: none;
+    padding: 7px;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px 5px rgb(15, 146, 146);
+    border-radius: 5px;
+
+
+}
+
+.formulario .image-login {
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    box-shadow: 0px 5px 5px 5px rgb(3, 50, 50);
+
+}
+
+.formulario h2 {
+    font-size: 60px;
+    color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+
+
+}
+
+.formulario a {
+    font-size: 18px;
+    margin-left: 140px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(33, 31, 31);
+    border: 0;
+    border-radius: 10px;
+}
+
+.formulario .button {
+    background: rgb(24, 126, 126);
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px 5px rgb(9, 62, 62);
+    height: 80px;
+    padding: 20px 30px;
+    width: 250px;
+}
+
+.formulario .button:hover{
+    background: aqua;
+    transition: 0.5s;
+
+}
+
+
+
+.formulario .input-name{
+    outline: solid 2px rgb(207, 207, 217);
+    margin: 10px;
+    padding: 12px;
+
+}
+
+.formulario .input-passaword{
+    padding: 12px;
+    outline: solid 2px rgb(207, 207, 217);
+}
+
+
+
+
