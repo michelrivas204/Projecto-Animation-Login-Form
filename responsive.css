@@ -1,0 +1,102 @@
+
+
+@media screen and (max-width:1700px) {
+
+    .image-principal {
+        width: 75vh;
+        height: 40vw;
+        margin-top: -20px;
+    }
+
+    .formulario {
+        margin-right: 200px;
+        margin-top: 11vw;
+
+    }
+
+    .background-image {
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+
+
+}
+@media screen and (max-width:1500px){
+    .image-principal{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width:900px) {
+    .formulario {
+        margin-right: 26px;
+        height: 114vw;
+        width: 40vh;
+        padding: 51px;
+        gap: 2px;
+    }
+
+    .formulario a {
+        width: 200px;
+        margin-left: 20px;
+
+    }
+}
+
+
+@media screen and (max-width:390px) {
+
+    .formulario {
+        height: 495px;
+        width: 374px;
+        padding: 51px;
+        margin-right: 6px;
+        gap: 2px;
+    }
+
+    .formulario a {
+        width: 200px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+
+    .formulario {
+        height: 495px;
+        width: 374px;
+        padding: 51px;
+        margin-right: 6px;
+        gap: 2px;
+    }
+
+    .formulario a {
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    }
+
+    @media screen and (max-width:375px){
+        .box-principal{
+            padding: 0;
+        }
+
+        .formulario{
+            height: 478px;
+            width: 357px;
+            padding: 61px;
+            margin-right: 9px;
+            gap: 2px;
+        }
+
+    }
+
+
