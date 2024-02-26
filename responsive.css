@@ -1,16 +1,16 @@
 
 
-@media screen and (max-width:1700px) {
+@media screen and (max-width:1600px) {
 
     .image-principal {
         width: 75vh;
-        height: 40vw;
+        height: 52vw;
         margin-top: -20px;
     }
 
     .formulario {
-        margin-right: 200px;
-        margin-top: 11vw;
+        margin-right: 4vh;
+        margin-top: 10vh;
 
     }
 
@@ -22,6 +22,13 @@
         display: none;
     }
 
+    .formulario .image-login {
+        width: 60px;
+        margin-bottom: 8px;
+        margin-top: -28px;
+        height: 60px;
+        
+    }
 
 }
 @media screen and (max-width:1500px){
@@ -35,9 +42,9 @@
 
 @media screen and (max-width:900px) {
     .formulario {
-        margin-right: 26px;
-        height: 114vw;
-        width: 40vh;
+        
+        height: 67vh;
+        width: 56vh;
         padding: 51px;
         gap: 2px;
     }
@@ -50,53 +57,176 @@
 }
 
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:696px){
+.formulario{
+    height: 50vh;
+    width: 39vh;
+    padding: 45px;
+    gap: 2px;
+}
+.formulario .button {
+    font-size: 19px;
+    margin-top: 8px;
+    height: 56px;
+    width: 196px;
+}
 
-    .formulario {
-        height: 495px;
-        width: 374px;
-        padding: 51px;
-        margin-right: 6px;
-        gap: 2px;
-    }
 
-    .formulario a {
-        width: 200px;
-        margin-left: 20px;
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    .formulario .image-login {
+        width: 55px;
+        height: 55px;
+        margin-top: -16px;
     }
 
 }
 
-@media screen and (max-width:360px) {
 
-    .formulario {
-        height: 495px;
-        width: 374px;
-        padding: 51px;
-        margin-right: 6px;
-        gap: 2px;
+@media screen and (max-width:412px){
+
+    .formulario .image-login {
+        width: 50px;
+        margin-top: -30px;
+    }
     }
 
-    .formulario a {
-        width: 200px;
-        margin-left: 20px;
-    }
 
-    }
+    @media screen and (max-width:375px) {
 
-    @media screen and (max-width:375px){
-        .box-principal{
-            padding: 0;
-        }
-
-        .formulario{
-            height: 478px;
-            width: 357px;
-            padding: 61px;
-            margin-right: 9px;
+        .formulario {
+            height: 64vh;
+            width: 50vh;
+            margin-right: 20px;
             gap: 2px;
         }
+    
+        .formulario a {
+            width: 160px;
+            margin-left: 20px;
+        }
+    
+        .formulario .image-login{
+            width: 50px;
+            height: 50px;
+            margin-top: -28px;
+        }
+    
+        .formulario input {
+            width: 269px;
+            font-size: 17px;
+        }
+    
+   
+    }
+
+    @media screen and (max-width:360px) {
+
+        .formulario {
+            height: 52vh;
+            width: 43vh;
+
+        }
+    
+        .formulario a {
+            width: 200px;
+            margin-left: 20px;
+        }
+
+    
+        }
+
+
+        @media screen and (max-width: 300px){
+            .formulario {
+                margin-right: 26px;
+                height: 116vw;
+                width: 40vh;
+                padding: 51px;
+                gap: 2px;
+            }
+            
+            .formulario .image-login {
+                width: 60px;
+                margin-top: -34px;
+                height: 60px;
+            }
+
+            .formulario .button {
+                font-size: 17px;
+                margin-top: 10px;
+                height: 55px;
+                width: 182px;
+            }
+
+            .formulario a {
+                margin-left: 42px;
+            }
+            }
+            
+
+
+@media screen and (max-width:250px){
+
+
+    .box-principal{
+        padding: 0;
+    }
+
+    .formulario {
+        height: 405px;
+        width: 303px;
+        padding: 66px;
+        margin-right: 28px;
+        gap: 2px;
+        margin-top: 91px;
+    }
+
+    .formulario .image-login{
+        height: 51px;
+        width: 51px;
+        margin-top: -47px;
 
     }
+
+    .formulario h2 {
+        font-size: 53px;
+ }
+
+ .formulario input {
+    width: 256px;
+    font-size: 15px;
+}
+
+
+.formulario .button {
+
+    font-size: 20px;
+    margin-top: 22px;
+    height: 55px;
+    width: 202px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+   
 
 
